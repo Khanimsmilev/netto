@@ -1,0 +1,22 @@
+import React from 'react'
+
+const Arch = () => {
+  return (
+    <div class="max-w-[1440px] mx-auto relative w-screen -mt-12 h-[50px] border-4 border-transparent bg-gradient-to-r from-pink-700 via-red-600 to-pink-700 bg-clip-border rounded-tl-[50%_100%] rounded-tr-[50%_100%]">
+            <div className="max-w-[1440px] mx-auto absolute -left-[4px] top-[1px] h-[50px] w-screen bg-gradient-to-b rounded-tl-[50%_90%] rounded-tr-[50%_90%] from-blue-950 from-10% to-black to-90%"></div>
+        </div>
+  )
+}
+
+// const Arch = () => {
+//   return (
+//     <div className="max-w-[1440px] mx-auto relative w-full -mt-12 h-[50px]">
+//       <div className="relative h-[50px] w-full border-4 border-transparent bg-gradient-to-r from-pink-700 via-red-600 to-pink-700 bg-clip-border rounded-tl-[50%_100%] rounded-tr-[50%_100%]">
+//         <div className="absolute -left-1 top-1 h-full w-full bg-gradient-to-b from-blue-950 via-black to-black rounded-tl-[50%_90%] rounded-tr-[50%_90%]"></div>
+//       </div>
+//     </div>
+//   );
+// };
+
+
+export default Arch;
